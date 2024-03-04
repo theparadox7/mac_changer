@@ -1,4 +1,7 @@
 import subprocess
+import optparse
+
+parser = optparse.OptionParser()
 
 interface =input("Interface > ")
 
