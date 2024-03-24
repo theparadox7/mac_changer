@@ -2,6 +2,9 @@ import subprocess
 import optparse
 
 parser = optparse.OptionParser()
+parser.add_option("-i","--interface", dest="interface",help = "interface to Change its MAC")
+
+parser.parse_args()
 
 interface =input("Interface > ")
 
